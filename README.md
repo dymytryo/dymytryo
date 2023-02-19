@@ -13,7 +13,7 @@
 <h3>North Star Metric for Merchant Retentation Rate</h3>
 
 - Objective: track the changes in cohorts for the transaction volume generated and retained for a given payment product;
-- [retention_with_sql](https://github.com/dymytryo/retention_with_sql/blob/5a310c8686ba6201d8626c68ada89ff30db32607/README.md)
+- Link: [retention_with_sql](https://github.com/dymytryo/retention_with_sql/blob/5a310c8686ba6201d8626c68ada89ff30db32607/README.md)
 - Company Domain: Product & Strategy  
 - Tools: `Athena`, `Quicksight`, `dbt`
 - Languages: `Presto SQL`, `PostgreSQL`
@@ -22,7 +22,7 @@
 <h3>North Star Metric for Merchant Retentation Rate</h3>
 
 - Objective: for the marketing campaign predict the propensity of getting a car loan by a member;
-- [car_loan_propensity](https://github.com/dymytryo/car_loan_propensity/blob/20ba1a1f697d1fe8e4226f09ba3a56aa133333a2/README.md)
+- Link: [car_loan_propensity](https://github.com/dymytryo/car_loan_propensity/blob/20ba1a1f697d1fe8e4226f09ba3a56aa133333a2/README.md)
 - Company Domain: Marketing  
 - Tools: `Tableau`, `MS SQL Server`, 'Jupyter Notebook`, `MS Power Point`
 - Languages: `mySQL`, `Python`
