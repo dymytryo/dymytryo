@@ -2,19 +2,19 @@
 
 <h2>👨‍💻 My Projects:</h2>
 
-- <h3>Ops Workflow Automation & Reporting</h3>
+<h3>Ops Workflow Automation & Reporting</h3>
   - [workflow_atomation](https://github.com/dymytryo/workflow_automation/blob/055340a9bddae6d441f0ba12b8cabcec9244225f/README.md)
   - Company Domain: Operations
   - Objective: automate tasks using API calls for the Ops and generate reporting for the stakeholders;
   - Tools: `Google Sheets API`, `AWS`: `SageMaker`, `Athena`, `S3`, `Quicksight`, `Cloudwatch` 
   - Languages: `Python`, `Presto SQL`
-- <h3>North Star Metric for Merchant Retentation Rate</h3>
+<h3>North Star Metric for Merchant Retentation Rate</h3>
   - [retention_with_sql](https://github.com/dymytryo/workflow_automation/blob/055340a9bddae6d441f0ba12b8cabcec9244225f/README.md)
   - Company Domain: Product & Strategy  
   - Track the changes in cohorts for the transaction volume generated and retained for a given payment product;
   - Tools: `Athena`, `Quicksight`, `dbt`
   - Languages: `Presto SQL`, `PostgreSQL`
-- <h3>North Star Metric for Merchant Retentation Rate</h3>
+<h3>North Star Metric for Merchant Retentation Rate</h3>
   - [car_loan_propensity](https://github.com/dymytryo/workflow_automation/blob/055340a9bddae6d441f0ba12b8cabcec9244225f/README.md) 
   - Company Domain: Marketing  
   - Objective: for the marketing campaign predict the propensity of getting a car loan by a member;
