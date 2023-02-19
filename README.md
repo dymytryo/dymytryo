@@ -19,7 +19,7 @@
 - Languages: `Presto SQL`, `PostgreSQL`
 
 
-<h3>North Star Metric for Merchant Retentation Rate</h3>
+<h3>Propensity to Get a Car Loan</h3>
 
 - Objective: for the marketing campaign predict the propensity of getting a car loan by a member;
 - Link: [car_loan_propensity](https://github.com/dymytryo/car_loan_propensity/blob/20ba1a1f697d1fe8e4226f09ba3a56aa133333a2/README.md)
