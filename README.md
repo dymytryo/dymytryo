@@ -3,11 +3,11 @@
 <h2>👨‍💻 My Projects:</h2>
 
 <h3>Ops Workflow Automation & Reporting</h3>
-  - [workflow_atomation](https://github.com/dymytryo/workflow_automation/blob/055340a9bddae6d441f0ba12b8cabcec9244225f/README.md)
+  <b>- [workflow_atomation](https://github.com/dymytryo/workflow_automation/blob/055340a9bddae6d441f0ba12b8cabcec9244225f/README.md)
   - Company Domain: Operations
   - Objective: automate tasks using API calls for the Ops and generate reporting for the stakeholders;
   - Tools: `Google Sheets API`, `AWS`: `SageMaker`, `Athena`, `S3`, `Quicksight`, `Cloudwatch` 
-  - Languages: `Python`, `Presto SQL`
+  - Languages: `Python`, `Presto SQL`</b>
 <h3>North Star Metric for Merchant Retentation Rate</h3>
   - [retention_with_sql](https://github.com/dymytryo/workflow_automation/blob/055340a9bddae6d441f0ba12b8cabcec9244225f/README.md)
   - Company Domain: Product & Strategy  
