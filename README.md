@@ -3,13 +3,23 @@
 <h2>👨‍💻 My Projects:</h2>
 
 - <b>Ops Workflow Automation & Reporting</b>
-  - [Ops Workflow Automation](https://github.com/dymytryo/workflow_automation/blob/055340a9bddae6d441f0ba12b8cabcec9244225f/README.md)
+  - [workflow_atomation](https://github.com/dymytryo/workflow_automation/blob/055340a9bddae6d441f0ba12b8cabcec9244225f/README.md)
+  - Company Domain: Operations
   - Objective: automate tasks using API calls for the Ops and generate reporting for the stakeholders;
-  - Tools: `Google Sheets API`, `Python`, `SQL`, `AWS`: `SageMaker`, `Athena`, `S3`, `Quicksight`, `Cloudwatch` 
-- <b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b>
-  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
-- <b>PowerShell</b>
-  - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
+  - Tools: `Google Sheets API`, `AWS`: `SageMaker`, `Athena`, `S3`, `Quicksight`, `Cloudwatch` 
+  - Languages: `Python`, `Presto SQL`
+- <b>North Star Metric for Merchant Retentation Rate</b>
+  - [retention_with_sql](https://github.com/dymytryo/workflow_automation/blob/055340a9bddae6d441f0ba12b8cabcec9244225f/README.md)
+  - Company Domain: Product & Strategy  
+  - Track the changes in cohorts for the transaction volume generated and retained for a given payment product;
+  - Tools: `Athena`, `Quicksight`, `dbt`
+  - Languages: `Presto SQL`, `PostgreSQL`
+- <b>North Star Metric for Merchant Retentation Rate</b>
+  - [car_loan_propensity](https://github.com/dymytryo/workflow_automation/blob/055340a9bddae6d441f0ba12b8cabcec9244225f/README.md) 
+  - Company Domain: Marketing  
+  - Objective: for the marketing campaign predict the propensity of getting a car loan by a member;
+  - Tools: `Tableau`, `MS SQL Server`, 'Jupyter Notebook`, `MS Power Point`
+  - Languages: `mySQL`, `Python`
 
 <h2>📺 Popular YouTube Videos</h2>
 
