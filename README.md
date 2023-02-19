@@ -15,7 +15,7 @@
 - Objective: track the changes in cohorts for the transaction volume generated and retained for a given payment product;
 - Link: [retention_with_sql](https://github.com/dymytryo/retention_with_sql/blob/5a310c8686ba6201d8626c68ada89ff30db32607/README.md)
 - Company Domain: Product & Strategy  
-- Tools: `Athena`, `Quicksight`, `dbt`
+- Tools: `Athena`, `Quicksight`, `dbt`, `PyCharm`
 - Languages: `Presto SQL`, `PostgreSQL`
 
 
