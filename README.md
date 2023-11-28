@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+<h2>👨‍💻 Coding Examples:</h2>
+
+- Link: [coding_examples](https://github.com/dymytryo/python_snippets) 
+
 <h2>👨‍💻 My Projects:</h2>
 
 <h3>Ops Workflow Automation & Reporting</h3>
