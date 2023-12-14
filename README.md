@@ -3,7 +3,7 @@
 <h2>👨‍💻 Coding Examples:</h2>
 
 - Link: [coding_examples](https://github.com/dymytryo/python_snippets) - this folder contains useful functions for working with data
-- Link: [DAGs]([https://github.com/dymytryo/python_snippets](https://github.com/dymytryo/dags)) - this folder contains examples of simple Airflow DAGs that can be used daily to achieve simple tasks like dropping the table or dynamic automatic forecasting models 
+- Link: [DAGs](https://github.com/dymytryo/dags) - this folder contains examples of simple Airflow DAGs that can be used daily to achieve simple tasks like dropping the table or dynamic automatic forecasting models 
 - 
 <h2>👨‍💻 My Projects:</h2>
 
