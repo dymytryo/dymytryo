@@ -2,9 +2,9 @@
 
 <h2>👨‍💻 Coding Examples:</h2>
 
-- Link: [DAGs](https://github.com/dymytryo/dags) ->  examples of simple Airflow DAGs that can be used daily to achieve simple tasks like dropping the table or dynamic automatic forecasting models
-- Link: [Python snippets](https://github.com/dymytryo/python_snippets) -> useful functions for working with data
-- Link: [SQL snippets](https://github.com/dymytryo/sql_snippets) -> generic yet useful SQL tips and tricks
+- [DAGs](https://github.com/dymytryo/dags) ->  examples of simple Airflow DAGs that can be used daily to achieve simple tasks like dropping the table or dynamic automatic forecasting models
+- [Python snippets](https://github.com/dymytryo/python_snippets) -> useful functions for working with data
+- [SQL snippets](https://github.com/dymytryo/sql_snippets) -> generic yet useful SQL tips and tricks
   
 <h2>👨‍💻 My Projects:</h2>
 
