@@ -1,11 +1,4 @@
 ### Hi there 👋
-
-<h2>👨‍💻 Coding Examples:</h2>
-
-- [DAGs](https://github.com/dymytryo/dags) ->  examples of simple Airflow DAGs that can be used daily to achieve simple tasks like dropping the table or dynamic automatic forecasting models
-- [Jupyter Notebooks](https://github.com/dymytryo/notebooks) -> notebooks that include tutorials
-- [Python snippets](https://github.com/dymytryo/python_snippets) -> useful functions for working with data
-- [SQL snippets](https://github.com/dymytryo/sql_snippets) -> generic yet useful SQL tips and tricks
   
 <h2>👨‍💻 My Projects:</h2>
 
@@ -33,3 +26,11 @@
 - Company Domain: Marketing  
 - Tools: `Tableau`, `MS SQL Server`, `Jupyter Notebook`, `MS PowerPoint`
 - Languages: `mySQL`, `Python`
+
+
+<h2>👨‍💻 Coding Examples:</h2>
+
+- [DAGs](https://github.com/dymytryo/dags) ->  examples of simple Airflow DAGs that can be used daily to achieve simple tasks like dropping the table or dynamic automatic forecasting models
+- [Jupyter Notebooks](https://github.com/dymytryo/notebooks) -> notebooks that include tutorials
+- [Python snippets](https://github.com/dymytryo/python_snippets) -> useful functions for working with data
+- [SQL snippets](https://github.com/dymytryo/sql_snippets) -> generic yet useful SQL tips and tricks
