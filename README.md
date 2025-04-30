@@ -27,8 +27,21 @@
 - Tools: `Tableau`, `MS SQL Server`, `Jupyter Notebook`, `MS PowerPoint`
 - Languages: `mySQL`, `Python`
 
+<h3> Aiflow Projects [Jupyter Notebooks](https://github.com/dymytryo/airflow) </h3>
+1. **Lake-to-DWH Cross-Notification Pipeline**  
+   Dynamically generates staging DAGs in the Data Warehouse Airflow instance to run dbt models whenever upstream Lake tables are refreshed. Uses Airflow `Dataset` for cross-instance triggers.
+
+2. **Payment Volume Pacing DAG**  
+   Runs daily to project end-of-month payment volumes per method based on business-day pacing logic, writes results to Redshift, and powers a live Tableau dashboard for operational decision-making.
+
+3. **Airflow DagRun Export DAG**  
+   Exports recent `DagRun` metadata from the Airflow metastore into Redshift tables, enabling easy historical query and SLA monitoring beyond the limitations of Airflow’s native metastore.
+
+4. **DBT Drop Redshift View or Table DAG**  
+   A manual-triggered DAG that drops specified Redshift tables or views via runtime config, allowing analytics engineers to manage schema cleanup without needing direct console access.
 
 <h2>👨‍💻 Coding Examples:</h2>
+
 - [Jupyter Notebooks](https://github.com/dymytryo/notebooks) -> notebooks that include tutorials
 - [Python snippets](https://github.com/dymytryo/python_snippets) -> useful functions for working with data
 - [SQL snippets](https://github.com/dymytryo/sql_snippets) -> generic yet useful SQL tips and tricks
