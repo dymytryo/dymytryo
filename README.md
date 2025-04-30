@@ -28,7 +28,8 @@
 - Languages: `mySQL`, `Python`
 
 <h3> Aiflow Projects </h3>
-Repository:  [Jupyter Notebooks](https://github.com/dymytryo/airflow)
+
+Repository: [Aiflow](https://github.com/dymytryo/airflow )
 
 1. **Lake-to-DWH Cross-Notification Pipeline**  
    Dynamically generates staging DAGs in the Data Warehouse Airflow instance to run dbt models whenever upstream Lake tables are refreshed. Uses Airflow `Dataset` for cross-instance triggers.
