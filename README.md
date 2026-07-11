@@ -7,10 +7,10 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 <h3>Ops Workflow Automation & Reporting</h3>
 
 - Objective: automate tasks using API calls for the Ops and generate reporting for the stakeholders;
-- Link: [workflow_atomation](https://github.com/dymytryo/workflow_automation/blob/cddcfad27ab375e406d30f75822ef4296301e548/README.md)
+- Link: [sheets-to-lake reverse ETL](https://github.com/dymytryo/operations-analytics/tree/main/projects/sheets-to-lake-reverse-etl)
 - Company Domain: Operations
 - Tools: `Google Sheets API`, `AWS`: `SageMaker`, `Athena`, `S3`, `Quicksight`, `Cloudwatch` 
-- Languages: `Python`, `Presto SQL`</b>
+- Languages: `Python`, `Presto SQL`
 
 <h3>North Star Metric for Merchant Retentation Rate</h3>
 
