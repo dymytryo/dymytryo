@@ -24,7 +24,7 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 <h3>Propensity to Get a Car Loan</h3>
 
 - Objective: for the marketing outreach campaign predict the propensity of getting a car loan by a member;
-- Link: [car_loan_propensity](https://github.com/dymytryo/car_loan_propensity/blob/c99d9025d97a8b575075d2a4fcd3573fd7784db0/README.md)
+- Link: [vehicle loan propensity case study](https://dymytryo.github.io/case-studies/vehicle-loan-propensity.html)
 - Company Domain: Marketing  
 - Tools: `Tableau`, `MS SQL Server`, `Jupyter Notebook`, `MS PowerPoint`
 - Languages: `mySQL`, `Python`
