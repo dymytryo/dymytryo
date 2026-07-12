@@ -4,6 +4,14 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
   
 <h2>👨‍💻 My Projects:</h2>
 
+<h3>Data Platform Observability</h3>
+
+- Objective: runtime observability for an analytics warehouse — freshness SLAs from dbt sources, control-count reconciliation, metadata coverage, and transition-based alerting, graded daily into four scorecards (tests, alerts, tables, users/stewards);
+- Link: [data observability case study](https://dymytryo.github.io/case-studies/data-observability.html), [observability repo](https://github.com/dymytryo/observability)
+- Company Domain: Data Platform
+- Tools: `dbt`, `Snowflake`, `DuckDB`, `PagerDuty`/`Slack` alert routing
+- Languages: `SQL`, `Python`, `YAML`
+
 <h3>Google Sheets Ingestion & Change Capture</h3>
 
 - Objective: self-serve ingestion of Google Sheets for analytics — typed reads of any sheet plus insert/update/delete change capture via snapshot diffing;
