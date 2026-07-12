@@ -4,13 +4,13 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
   
 <h2>👨‍💻 My Projects:</h2>
 
-<h3>Ops Workflow Automation & Reporting</h3>
+<h3>Google Sheets Ingestion & Change Capture</h3>
 
-- Objective: automate tasks using API calls for the Ops and generate reporting for the stakeholders;
-- Link: [sheets-to-lake reverse ETL](https://github.com/dymytryo/operations-analytics/tree/main/projects/sheets-to-lake-reverse-etl)
+- Objective: self-serve ingestion of Google Sheets for analytics — typed reads of any sheet plus insert/update/delete change capture via snapshot diffing;
+- Link: [gsheets_ingestion notebook](https://github.com/dymytryo/notebooks/tree/main/gsheets_ingestion)
 - Company Domain: Operations
-- Tools: `Google Sheets API`, `AWS`: `SageMaker`, `Athena`, `S3`, `Quicksight`, `Cloudwatch` 
-- Languages: `Python`, `Presto SQL`
+- Tools: `Google Sheets API`, `pandas`, `Parquet`, `dbt` hand-off
+- Languages: `Python`
 
 <h3>North Star Metric for Merchant Retentation Rate</h3>
 
