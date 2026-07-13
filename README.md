@@ -6,7 +6,7 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 
 <h3>Data Platform Observability</h3>
 
-- Objective: runtime observability for an analytics warehouse — freshness SLAs from dbt sources, control-count reconciliation, metadata coverage, and transition-based alerting, graded daily into four scorecards (tests, alerts, tables, users/stewards);
+- Objective: take an analytics warehouse of 4K+ dbt models with multiple IoT ingestions from no observability to full coverage, cutting data downtime by 45% — freshness SLAs from dbt sources, control-count reconciliation, metadata coverage, and transition-based alerting, graded daily into four live scorecards (tests, alerts, tables, users/stewards);
 - Link: [data observability case study](https://dymytryo.github.io/case-studies/data-observability.html), [observability repo](https://github.com/dymytryo/observability)
 - Company Domain: Data Platform
 - Tools: `dbt`, `Snowflake`, `DuckDB`, `PagerDuty`/`Slack` alert routing
