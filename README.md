@@ -28,6 +28,14 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 - Tools: `DuckDB`, `dbt`-style marts, `Jupyter Notebook` (originally `Athena` + `QuickSight`)
 - Languages: `SQL`, `Python`
 
+<h3>Customer Lifetime Value for a Virtual Card Program</h3>
+
+- Objective: price the check-to-virtual-card conversion program: survival curves for time on the rail, CLV by four methods, per-channel conversion spend ceilings, and an RFM regression for next-month revenue;
+- Link: [virtual card CLV case study](https://dymytryo.github.io/case-studies/virtual-card-clv.html), [virtual_card_clv notebook](https://github.com/dymytryo/notebooks/tree/main/virtual_card_clv)
+- Company Domain: Product & Strategy  
+- Tools: `pandas`, `scikit-learn`, `statsmodels`, `seaborn`, `Jupyter Notebook`
+- Languages: `Python`
+
 
 <h3>Propensity to Get a Car Loan</h3>
 
