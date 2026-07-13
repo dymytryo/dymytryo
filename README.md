@@ -20,13 +20,13 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 - Tools: `Google Sheets API`, `pandas`, `Parquet`, `dbt` hand-off
 - Languages: `Python`
 
-<h3>North Star Metric for Merchant Retentation Rate</h3>
+<h3>North Star Metric for Merchant Retention Rate</h3>
 
-- Objective: track the changes in cohorts for the transaction volume generated and retained for a given payment product;
-- Link: [retention_with_sql](https://github.com/dymytryo/retention_with_sql/blob/51aa94b897ba2d06196ad50989ece30167c657c8/README.md)
+- Objective: measure 3-month cohort retention of merchants and transaction volume for a virtual card program, separating activity retention from enrollment retention;
+- Link: [merchant retention case study](https://dymytryo.github.io/case-studies/merchant-retention.html), [merchant_retention notebook](https://github.com/dymytryo/notebooks/tree/main/merchant_retention)
 - Company Domain: Product & Strategy  
-- Tools: `Athena`, `Quicksight`, `dbt`, `PyCharm`
-- Languages: `Presto SQL`, `PostgreSQL`
+- Tools: `DuckDB`, `dbt`-style marts, `Jupyter Notebook` (originally `Athena` + `QuickSight`)
+- Languages: `SQL`, `Python`
 
 
 <h3>Propensity to Get a Car Loan</h3>
