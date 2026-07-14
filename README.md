@@ -62,6 +62,13 @@ Repository: [Aiflow](https://github.com/dymytryo/airflow )
 4. **DBT Drop Redshift View or Table DAG**  
    A manual-triggered DAG that drops specified `Redshift` tables or views via runtime config, allowing analytics engineers to manage schema cleanup without needing direct console access.
 ---
+<h3> Dockerized Analytics Engineering Runtime </h3>
+
+Repository: [docker](https://github.com/dymytryo/docker)
+
+Local `Airflow` + `dbt` runtime in `Docker`: an orchestration image and a slim dbt CI image, a `Postgres` warehouse target, and a five-task dbt release pipeline (deps, seed, run, test, artifact validation) built on a small DAG factory. Includes a step-by-step [DAG factory walkthrough](https://github.com/dymytryo/docker/blob/main/docs/dag-factory.md): shared scheduling policy, defaults, and override patterns.
+
+---
 <h2>👨‍💻 Coding Examples:</h2>
 
 - [Jupyter Notebooks](https://github.com/dymytryo/notebooks) -> notebooks that include tutorials
