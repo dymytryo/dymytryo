@@ -28,6 +28,14 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 - Tools: `DuckDB`, `dbt`-style marts, `Jupyter Notebook` (originally `Athena` + `QuickSight`)
 - Languages: `SQL`, `Python`
 
+<h3>Forecasting Daily Settled TPV with an LSTM</h3>
+
+- Objective: forecast next-day settled TPV for the virtual card program with an LSTM, benchmarked against persistence, seasonal naive, and a linear model on identical inputs, with a 10-seed stability study, feature ablation, and refit-cadence experiment;
+- Link: [TPV LSTM case study](https://dymytryo.github.io/case-studies/tpv-lstm-forecasting.html), [tpv_lstm_forecasting notebook](https://github.com/dymytryo/notebooks/tree/main/tpv_lstm_forecasting)
+- Company Domain: Treasury & Settlement Operations  
+- Tools: `Keras 3` (`JAX` backend), `pandas`, `scikit-learn`, `Jupyter Notebook`
+- Languages: `Python`
+
 <h3>Customer Lifetime Value for a Virtual Card Program</h3>
 
 - Objective: price the check-to-virtual-card conversion program: survival curves for time on the rail, CLV by four methods, per-channel conversion spend ceilings, and an RFM regression for next-month revenue;
