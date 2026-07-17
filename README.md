@@ -28,6 +28,14 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 - Tools: `DuckDB`, `dbt`-style marts, `Jupyter Notebook` (originally `Athena` + `QuickSight`)
 - Languages: `SQL`, `Python`
 
+<h3>Month-End Close ETL</h3>
+
+- Objective: automate the day-1 morning of monthly financial close: a business-day-aware Airflow DAG orchestrating config-driven AWS Glue jobs for monthly report tables, processor virtual-card revenue normalization, and NetSuite journal-entry CSV generation with KMS-encrypted S3 outbound;
+- Link: [month-end-close-etl project](https://github.com/dymytryo/finance-analytics/tree/main/projects/month-end-close-etl)
+- Company Domain: Finance & Accounting  
+- Tools: `AWS Glue`, `Airflow`, `Athena`/`Starburst`, `NetSuite`, `S3` + `KMS`
+- Languages: `Python`, `SQL`
+
 <h3>Forecasting Daily Settled TPV with an LSTM</h3>
 
 - Objective: forecast next-day settled TPV for the virtual card program with an LSTM, benchmarked against persistence, seasonal naive, and a linear model on identical inputs, with a 10-seed stability study, feature ablation, and refit-cadence experiment;
