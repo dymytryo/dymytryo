@@ -37,6 +37,14 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 - Tools: `DuckDB`, `dbt`-style marts, `Jupyter Notebook` (originally `Athena` + `QuickSight`)
 - Languages: `SQL`, `Python`
 
+<h3>Primary Layer: Single Source of Truth in dbt</h3>
+
+- Objective: stop model sprawl by introducing a governed primary layer between staging and marts: reusable entity models with unified conventions, consolidating overlapping dimensions into one (a multi-hour build cut to well under 20 minutes) and measuring adoption daily via a manifest-parsing Airflow DAG feeding a Tableau tracker;
+- Link: [primary layer writeup](https://github.com/dymytryo/dbt/tree/main/patterns/primary_layer)
+- Company Domain: Data Platform  
+- Tools: `dbt`, `Airflow`, `Redshift`, `Tableau`
+- Languages: `Python`, `SQL`
+
 <h3>Month-End Close ETL</h3>
 
 - Objective: automate the day-1 morning of monthly financial close: a business-day-aware Airflow DAG orchestrating config-driven AWS Glue jobs for monthly report tables, processor virtual-card revenue normalization, and NetSuite journal-entry CSV generation with KMS-encrypted S3 outbound;
