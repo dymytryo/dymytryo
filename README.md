@@ -4,6 +4,15 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
   
 <h2>👨‍💻 My Projects:</h2>
 
+<h3>Snowflake to Starburst and Iceberg Acquisition Integration</h3>
+
+- Objective: support BILL's acquisition of Divvy by moving acquired data workflows from Snowflake to BILL's Starburst/Trino and Apache Iceberg lakehouse under Sarbanes-Oxley (SOX) controls, with object-level parity validation and a coordinated Tableau cutover;
+- Impact: addressed a ~$450/day (~$165K/year) Snowflake run rate, validated ~950 objects, reached ~80% migration progress at the documented checkpoint, and remediated ~3x Iceberg storage amplification;
+- Link: [Snowflake integration case study](https://dymytryo.github.io/case-studies/snowflake-starburst-migration.html), [data_warehouse/snowflake](https://github.com/dymytryo/data_warehouse/tree/main/snowflake)
+- Company Domain: Data Platform (acquisition integration)
+- Tools: `Snowflake`, `Starburst`/`Trino`, `Apache Iceberg`, `dbt`, `Airflow`, `Fivetran`, `Tableau`
+- Languages: `SQL`, `Python`
+
 <h3>Data Platform Observability</h3>
 
 - Objective: take an analytics warehouse of 4K+ dbt models with multiple IoT ingestions from no observability to full coverage, cutting data downtime by 45% — freshness SLAs from dbt sources, control-count reconciliation, metadata coverage, and transition-based alerting, graded daily into four live scorecards (tests, alerts, tables, users/stewards);
