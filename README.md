@@ -37,6 +37,14 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 - Tools: `DuckDB`, `dbt`-style marts, `Jupyter Notebook` (originally `Athena` + `QuickSight`)
 - Languages: `SQL`, `Python`
 
+<h3>Self-Healing Critical Pipelines</h3>
+
+- Objective: close the loop on data reliability: a lineage builder maintains a control table of critical dbt models and their staleness, and an hourly Airflow DAG rebuilds only stale P0/P1 models with guardrails (per-cycle cap, dry run, blocked-by-source detection, orphan cleanup) and an auditable self-heal state table, worst case one hour after an SLA miss;
+- Link: [self-healing pipelines writeup](https://github.com/dymytryo/airflow/tree/main/self_healing_pipelines)
+- Company Domain: Data Platform  
+- Tools: `Airflow`, `dbt`, `Starburst`/`Trino`, `Slack`, `Elementary`
+- Languages: `Python`, `SQL`
+
 <h3>Primary Layer: Single Source of Truth in dbt</h3>
 
 - Objective: stop model sprawl by introducing a governed primary layer between staging and marts: reusable entity models with unified conventions, consolidating overlapping dimensions into one (a multi-hour build cut to well under 20 minutes) and measuring adoption daily via a manifest-parsing Airflow DAG feeding a Tableau tracker;
