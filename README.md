@@ -57,7 +57,7 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 <h3>Primary Layer: Single Source of Truth in dbt</h3>
 
 - Objective: stop model sprawl by introducing a governed primary layer between staging and marts: reusable entity models with unified conventions, consolidating overlapping dimensions into one (a multi-hour build cut to well under 20 minutes) and measuring adoption daily via a manifest-parsing Airflow DAG feeding a Tableau tracker;
-- Link: [primary layer writeup](https://github.com/dymytryo/dbt/tree/main/patterns/primary_layer)
+- Link: [primary layer case study](https://dymytryo.github.io/case-studies/primary-layer.html), [primary layer writeup](https://github.com/dymytryo/dbt/tree/main/patterns/primary_layer)
 - Company Domain: Data Platform  
 - Tools: `dbt`, `Airflow`, `Redshift`, `Tableau`
 - Languages: `Python`, `SQL`
