@@ -37,6 +37,15 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 - Tools: `DuckDB`, `dbt`-style marts, `Jupyter Notebook` (originally `Athena` + `QuickSight`)
 - Languages: `SQL`, `Python`
 
+<h3>PFY Agent Performance Management Platform</h3>
+
+- Objective: build an end-to-end data and BI platform for virtual card payment agents, integrating six systems (QuickBase, Five9, proprietary payment tables, Marqeta, Adyen, Workday) via webhooks, AWS Glue, Snowflake, and dbt, with attempt-to-call verification, no-call anomaly detection, settlement/void/token reconciliation, supervisor-hierarchy enrichment, and labor-adjusted productivity metrics surfaced in Tableau;
+- Impact: replaced fragmented manual reporting with a governed source of truth; cut no-call PFY rate and shortened time-to-flag persistent underperformance from weeks to days (representative figures at ~40-agent scale);
+- Link: [PFY agent monitoring case study](https://dymytryo.github.io/case-studies/pfy-agent-monitoring.html)
+- Company Domain: Operations Analytics  
+- Tools: `Snowflake`, `dbt`, `AWS Glue`, `Five9`, `Workday`, `Tableau`
+- Languages: `SQL`, `Python`
+
 <h3>S3 Cost Reduction for an Iceberg Lakehouse</h3>
 
 - Objective: reverse runaway lakehouse storage costs: diagnose a 1.5 PB bucket (210M objects, 7.6 MB average file) growing 14x in six months to a 3.3× Iceberg storage multiplication, then run a five-workstream program (nightly maintenance, orphan-directory cleanup, table optimization, platform consolidation, per-team cost segmentation);
