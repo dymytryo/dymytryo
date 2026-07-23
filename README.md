@@ -37,6 +37,15 @@ Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
 - Tools: `DuckDB`, `dbt`-style marts, `Jupyter Notebook` (originally `Athena` + `QuickSight`)
 - Languages: `SQL`, `Python`
 
+<h3>S3 Cost Reduction for an Iceberg Lakehouse</h3>
+
+- Objective: reverse runaway lakehouse storage costs: diagnose a 1.5 PB bucket (210M objects, 7.6 MB average file) growing 14x in six months to a 3.3× Iceberg storage multiplication, then run a five-workstream program (nightly maintenance, orphan-directory cleanup, table optimization, platform consolidation, per-team cost segmentation);
+- Impact: monthly S3 cost fell 70% in the first full month after rollout ($34.5K peak to $10.4K, tracking under $5K by January);
+- Link: [S3 cost reduction case study](https://dymytryo.github.io/case-studies/s3-cost-reduction.html)
+- Company Domain: Data Platform / FinOps  
+- Tools: `Amazon S3`, `Apache Iceberg`, `Starburst`/`Trino`, `Airflow`, `dbt`
+- Languages: `Python`, `SQL`
+
 <h3>Self-Healing Critical Pipelines</h3>
 
 - Objective: close the loop on data reliability: a lineage builder maintains a control table of critical dbt models and their staleness, and an hourly Airflow DAG rebuilds only stale P0/P1 models with guardrails (per-cycle cap, dry run, blocked-by-source detection, orphan cleanup) and an auditable self-heal state table, worst case one hour after an SLA miss;
