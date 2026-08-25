@@ -1,6 +1,4 @@
 ### Hi there 👋
-
-Portfolio: [https://dymytryo.github.io/](https://dymytryo.github.io/)
   
 <h2>👨‍💻 My Projects:</h2>
 
