@@ -11,6 +11,15 @@
 - Tools: `Snowflake`, `Starburst`/`Trino`, `Apache Iceberg`, `dbt`, `Airflow`, `Fivetran`, `Tableau`
 - Languages: `SQL`, `Python`
 
+<h3>Snowflake Multi-Region Data Consolidation</h3>
+
+- Objective: publish one governed analytics contract from four regional lending datasets into a central Snowflake account, using direct zero-copy shares for co-located data and physical replication groups for remote regions;
+- Scale: about 300 equivalent tables per region, roughly 1,200 published regional table objects, selected event tables above 500 billion rows, and a configured 10-minute remote replication attempt interval;
+- Link: [multi-region consolidation case study](https://dymytryo.github.io/case-studies/snowflake-multi-region-consolidation.html), [data_warehouse project](https://github.com/dymytryo/data_warehouse/tree/main/projects/snowflake-multi-region-consolidation)
+- Company Domain: Data Platform
+- Tools: `Snowflake`, `dbt`, `dbt Cloud`, `Secure Data Sharing`, `replication groups`, `GitHub Actions`, `Jira`
+- Languages: `SQL`, `YAML`
+
 <h3>Data Platform Observability</h3>
 
 - Objective: take an analytics warehouse of 4K+ dbt models with multiple IoT ingestions from no observability to full coverage, cutting data downtime by 45% — freshness SLAs from dbt sources, control-count reconciliation, metadata coverage, and transition-based alerting, graded daily into four live scorecards (tests, alerts, tables, users/stewards);
