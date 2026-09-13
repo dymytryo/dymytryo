@@ -15,6 +15,7 @@
 
 - Objective: publish one governed analytics contract from four regional lending datasets into a central Snowflake account, using direct zero-copy shares for co-located data and physical replication groups for remote regions;
 - Scale: about 300 equivalent tables per region, roughly 1,200 published regional table objects, selected event tables above 500 billion rows, and a configured 10-minute remote replication attempt interval;
+- Implementation: regional dbt source routing and selectors, a model-coverage guard, bounded audits, and GitHub Actions that trigger, monitor, retry, cancel, clean up, and deploy dbt Cloud jobs;
 - Link: [multi-region consolidation case study](https://dymytryo.github.io/case-studies/snowflake-multi-region-consolidation.html), [data_warehouse project](https://github.com/dymytryo/data_warehouse/tree/main/projects/snowflake-multi-region-consolidation)
 - Company Domain: Data Platform
 - Tools: `Snowflake`, `dbt`, `dbt Cloud`, `Secure Data Sharing`, `replication groups`, `GitHub Actions`, `Jira`
