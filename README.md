@@ -6,7 +6,7 @@
 
 - Objective: support BILL's acquisition of Divvy by moving acquired data workflows from Snowflake to BILL's Starburst/Trino and Apache Iceberg lakehouse under Sarbanes-Oxley (SOX) controls, with object-level parity validation and a coordinated Tableau cutover;
 - Impact: addressed a ~$450/day (~$165K/year) Snowflake run rate, validated ~950 objects, reached ~80% migration progress at the documented checkpoint, and remediated ~3x Iceberg storage amplification;
-- Link: [Snowflake integration case study](https://dymytryo.github.io/case-studies/snowflake-starburst-migration.html), [data_warehouse/snowflake](https://github.com/dymytryo/data_warehouse/tree/main/snowflake)
+- Link: [Snowflake integration case study](https://dymytryo.github.io/case-studies/snowflake-starburst-migration.html), [data_warehouse project](https://github.com/dymytryo/data_warehouse/tree/main/projects/snowflake-acquisition-integration)
 - Company Domain: Data Platform (acquisition integration)
 - Tools: `Snowflake`, `Starburst`/`Trino`, `Apache Iceberg`, `dbt`, `Airflow`, `Fivetran`, `Tableau`
 - Languages: `SQL`, `Python`
