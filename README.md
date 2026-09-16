@@ -118,6 +118,9 @@ Repository: [Aiflow](https://github.com/dymytryo/airflow )
 
 4. **DBT Drop Redshift View or Table DAG**  
    A manual-triggered DAG that drops specified `Redshift` tables or views via runtime config, allowing analytics engineers to manage schema cleanup without needing direct console access.
+
+5. **MWAA dbt Utilities**  
+   Custom operators that run dbt in `ECS`/`Fargate` from AWS `MWAA` with a local `Docker` fallback, a generic MWAA CLI trigger operator, and debug DAGs for `Secrets Manager`, container runtime state, worker environment, `Snowflake`, and `Starburst` connectivity. See [`mwaa_dbt_utilities/`](https://github.com/dymytryo/airflow/tree/main/mwaa_dbt_utilities).
 ---
 <h3> Dockerized Analytics Engineering Runtime </h3>
 
